@@ -1,0 +1,11 @@
+[Unit]
+Description=CheckHealth Logging Service
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/demonCheckHealth_RPI/CheckVolt_script.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
