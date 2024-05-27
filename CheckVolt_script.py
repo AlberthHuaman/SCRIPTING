@@ -2,7 +2,7 @@ import time
 import subprocess
 from datetime import datetime
 
-LOG_FILE = "/var/log/undervoltage.log"
+LOG_FILE = "/var/log/checkhealth.log"
 
 def log_undervoltage():
     check_volt = subprocess.run(["vcgencmd", "measure_volts"], capture_output=True, text=True)
