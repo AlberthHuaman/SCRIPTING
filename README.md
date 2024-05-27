@@ -13,3 +13,5 @@ sudo wget "https://raw.githubusercontent.com/AlberthHuaman/SCRIPTING/main/CheckV
 python3 $PATH_FOLDER1/$FILE_CHECK &
 
 
+
+
